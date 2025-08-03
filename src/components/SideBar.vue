@@ -6,7 +6,7 @@
       <router-link
         to="/"
         class="block py-2 px-4 text-white hover:bg-cinema-red rounded transition-colors"
-        :class="{ 'bg-cinema-red': $route.path === '/' }"
+        :class="{ 'bg-cinema-red': $route.path === '/test-fe' }"
       >
         Now Playing
       </router-link>
